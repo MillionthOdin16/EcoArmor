@@ -32,5 +32,5 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: EcoArmor
+          name: EcoArmor-${{ steps.vars.outputs.sha_short }}
           path: bin
